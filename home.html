@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="app">
+ 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <!-- Libreria para Anjular -->
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+  <script src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-route.min.js'></script>
+  <script src="//code.angularjs.org/1.2.19/i18n/angular-locale_es-es.js"></script>
+  <script src="script.js"></script>
+  <!-- Libreria para Bootstrap -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <!--Metadatos -->
+  <meta name="description" content="Esto es la descripción por defecto" />
+  <meta name="keywords" content="angular, rocks, default" />
+  <!-- CSS propios -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Open Graph -->
+  <meta property="og:title" content="BandasXX" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="http://playradio.es/wp-content/uploads/2016/04/queen-ii-photo-session-in-late-1973.jpg" />
+</head>
+ 
+<body class="fondo">
+ <div class="container-fluid margen">
+  <div class= "row">
+    <div class="col-lg-3">
+      <ul class="list-group">
+        <li class="list-group-item"><a href="#foo">Foo</a>
+        </li>
+        <li class="list-group-item"><a href="#bar">Bar</a>
+        </li>
+        <li class="list-group-item"><a href="#the-rolling-stone">Ir a la the-rolling-stone</a>
+        </li>
+        <li class="list-group-item"><a href="#the-beatles">Ir a la the-beatles</a>
+        </li>
+        <li class="list-group-item"><a href="#queen">Ir a la Queen</a>
+        </li>
+    </ul>
+  </div>
+  <div class="col-lg-9 " ng-view></div>
+ </div>
+</div>
+ 
+ 
+
+ 
+</body>
+ 
+</html>

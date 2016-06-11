@@ -1,0 +1,19 @@
+/*Estilos para la pagina en general */
+.margen{
+	margin-top: 20px;
+}
+.padding{
+	padding:10px;
+
+}
+.fondo{
+	background-color: #D8D8D8;
+}
+
+.fondoVideo{
+	background-color: white;
+}
+.divTexto{
+	color:white;
+	background-color: #595959;
+}
