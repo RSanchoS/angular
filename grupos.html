@@ -1,22 +1,27 @@
 <!--Plantilla para los grupos -->
 <div class="container-fluid" >
-
-	<div class="row padding divTexto">
-		<div class="col-lg-4 col-lg-offset-1">
-		<p class="texto">
-			{{texto}}
-		</p>
-		</div>
-		<div class="col-lg-7 text-center">
-			<img ng-src={{imgUrl}} class="img-circle" width="240" height="240"></img>
+	<div class="row ">
+		<div class="jumbotron divTitulo text-center">
+		<h1>{{titulo}}</h1>
 		</div>
 	</div>
-<!--Eleccion de video mediante swicth -->		
-		<div class="row text-center padding fondoVideo" ng-switch on="video">
+	<!--Eleccion de video mediante swicth -->		
+		<div class="row text-center padding " ng-switch on="video">
 			<iframe width="640" height="360" src="https://www.youtube.com/embed/f4Mc-NYPHaQ" frameborder="0" allowfullscreen ng-switch-when="queen"></iframe>
 			<iframe width="640" height="360" src="https://www.youtube.com/embed/Nqp2stVMVjM" frameborder="0" allowfullscreen ng-switch-when="trs"></iframe>
 			<iframe width="640" height="360" src="https://www.youtube.com/embed/S-rB0pHI9fU" frameborder="0" allowfullscreen ng-switch-when="tbeatles"></iframe>
 		</div>
+<div class="row divTexto">
+		<div class="col-lg-4 col-lg-offset-1 padding">
+		<p class="texto">
+			{{texto}}
+		</p>
+		</div>
+		<div class="col-lg-7 text-center padding">
+			<img ng-src={{imgUrl}} class="img-circle" width="240" height="240"></img>
+		</div>
+	</div>
+
 	</div>
 
 </div>

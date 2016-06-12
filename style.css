@@ -10,10 +10,11 @@
 	background-color: #D8D8D8;
 }
 
-.fondoVideo{
-	background-color: white;
-}
 .divTexto{
 	color:white;
 	background-color: #595959;
+}
+.divTitulo{
+	color:white;
+	background-color: black;
 }
